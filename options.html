@@ -1,20 +1,35 @@
-<link rel="stylesheet" type="text/css" href="options.css">
+<html>
+	<head>
+		<title>Clickbait Assassin</title>
+		<link rel="stylesheet" type="text/css" href="options.css">
+	</head>
 
-<h2>Blocked URLs</h2>
+	<body>
+		<section>
+			<p>Silently block content from sources of clickbait-like advertising.</p>
+		</section>
 
-<ul id="targets"></ul>
+		<section>
+			<h2>Blocked URLs</h2>
 
-<form id="add-form">
-	<input type="text" id="new-url" placeholder="New URL to block">
-	<input type="submit" value="Add">
-</form>
+			<ul id="targets"></ul>
 
-<button id="reset">Reset to defaults</button>
+			<form id="add-form">
+				<input type="text" id="new-url" placeholder="New URL to block">
+				<input type="submit" value="Add">
+			</form>
 
-<h2>Other stuff</h2>
+			<button id="reset">Reset to default URLs</button>
+		</section>
 
-<p>Assassinations performed so far: <span id="assassinations"></span></p>
-<p>Using this extension may have an adverse effect on the rendering or functionality of webpages in your browser.</p>
-<p>Ninja icon by John O'Shea from the Noun Project.</p>
+		<section>
+			<h2>Other stuff</h2>
 
-<script src="options.js"></script>
+			<p>Assassinations performed so far: <span id="assassinations"></span></p>
+			<p>Using this extension may have an adverse effect on the rendering or functionality of webpages in your browser.</p>
+			<p>Ninja icon by John O'Shea from the Noun Project.</p>
+		</section>
+
+		<script src="options.js"></script>
+	</body>
+</html>

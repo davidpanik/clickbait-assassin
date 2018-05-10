@@ -1,15 +1,11 @@
 .remove-url {
 	font-size: 0.8em;
 	margin-left: 1em;
-}
-
-.url {
-	display: inline-block;
-	width: 280px;
+	padding: 0 6px 2px;
 }
 
 #new-url {
-	width: 305px;
+	width: 80%;
 }
 
 #targets {
@@ -18,13 +14,25 @@
 
 #targets li {
 	list-style: none;
+	margin-bottom: 0.2em;
 }
 
 #reset {
 	font-size: 0.8em;
-	margin-left: 265px;
 }
 
 button, input[type="button"], input[type="submit"] {
 	cursor: pointer;
+}
+
+h2 {
+	font-weight: bold;
+}
+
+section {
+	margin-bottom: 4em;
+}
+
+html, body {
+	height: 400px;
 }
