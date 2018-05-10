@@ -5,7 +5,6 @@
 	"background": {
 		"scripts": ["background.js"]
 	},
-	"default_locale": "en",
 	"description": "Silently block content from sources of clickbait-like advertising.",
 	"icons": {
 		"640": "ninja.png"
