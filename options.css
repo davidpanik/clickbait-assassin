@@ -1,0 +1,30 @@
+.remove-url {
+	font-size: 0.8em;
+	margin-left: 1em;
+}
+
+.url {
+	display: inline-block;
+	width: 280px;
+}
+
+#new-url {
+	width: 305px;
+}
+
+#targets {
+	padding-left: 10px;
+}
+
+#targets li {
+	list-style: none;
+}
+
+#reset {
+	font-size: 0.8em;
+	margin-left: 265px;
+}
+
+button, input[type="button"], input[type="submit"] {
+	cursor: pointer;
+}

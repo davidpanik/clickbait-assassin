@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "Clickbait Assassin",
+	"version": "0.1",
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"icons": {
+		"640": "ninja.png"
+	},
+	"browser_action": {
+		"default_icon": "ninja.png"
+	},
+	"options_ui": {
+		"page": "options.html",
+		"chrome_style": true
+	},
+	"options_page": "options.html",
+	"permissions": [ "webRequest", "webRequestBlocking", "<all_urls>" ]
+}
